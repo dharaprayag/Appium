@@ -28,7 +28,7 @@ public class Swipe extends base
 		driver.findElementByXPath("//*[@content-desc='9']").click();
 		
 		WebElement first = driver.findElementByXPath("//*[@content-desc='15']");
-		WebElement second = driver.findElementByXPath("//*[@content-desc='15']");
+		WebElement second = driver.findElementByXPath("//*[@content-desc='45']");
 		t.longPress((WebElement) longPressOptions().withElement(element(first)).withDuration(ofSeconds(2))).moveToElement(second).release().perform();
 		
 
