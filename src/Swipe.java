@@ -32,6 +32,8 @@ public class Swipe extends base
 		t.longPress((WebElement) longPressOptions().withElement(element(first)).withDuration(ofSeconds(2))).moveToElement(second).release().perform();
 		
 
+		
+
 	}
 
 }
